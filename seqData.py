@@ -25,8 +25,6 @@ class seqData() :
             
             
             
-            
-            
     def getFrames(self):
         self.frame1 = self.toFastaPos(0)
         self.frame2 = self.toFastaPos(1)
