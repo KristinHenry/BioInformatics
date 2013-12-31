@@ -1,5 +1,8 @@
 #
 # Takes in a genetic sequence and outputs the amino acid sequence encoded
+# Converts a genetic sequence into amino acid sequences (6 frames).
+#
+# ToDo: enable setting DNA or RNA input.
 #
 
 class seqData() :
