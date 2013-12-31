@@ -25,10 +25,8 @@ class seqData() :
             print self.rna
             
             self.getFrames()
-            
-       
-            
-            
+    
+    
     def getFrames(self):
         self.frame1 = self.toFastaPos(0)
         self.frame2 = self.toFastaPos(1)
@@ -45,6 +43,7 @@ class seqData() :
         print(self.frame4)
         print(self.frame5)
         print(self.frame6)
+     
         
     def getText(self, doc):
         
@@ -59,6 +58,7 @@ class seqData() :
         
         return text
     
+    
     def removeSpace(self, txt):
         
         text = ''
@@ -68,8 +68,6 @@ class seqData() :
                 
         return text
         
-    
-    
         
     def fastaDict(self):
         
@@ -131,6 +129,7 @@ class seqData() :
                 out += self.fasta[codon]
             i -= 3
         return out
+
 
     def compliment(self, codon):
         
