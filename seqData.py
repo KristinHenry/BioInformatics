@@ -23,6 +23,7 @@ class seqData() :
             
             self.getFrames()
             
+       
             
             
     def getFrames(self):
