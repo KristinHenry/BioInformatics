@@ -1,5 +1,5 @@
 #
-# Takes in an RNA sequence and outputs the amino acid sequence encoded
+# Takes in a genetic sequence and outputs the amino acid sequence encoded
 #
 
 class seqData() :
